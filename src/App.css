@@ -1,0 +1,47 @@
+.container {
+  
+  text-align: center;
+  align-content: center;
+}
+body{
+    margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-size: 1920px 980px; 
+    background-image: url('https://dg31sz3gwrwan.cloudfront.net/fanart/76196/1177838-0-q80.jpg');
+
+}
+h1 {
+  display: inline-flex;
+border-radius: .7rem;
+  background-color: gray;
+  color: black;
+    opacity: 0.8;
+
+}
+.box {
+  width: 80px;
+  height: 80px;
+  border: 2px solid black;
+  border-radius: .7rem;
+  /* display: inline-block; */
+  line-height: 80px;
+  background-color: bisque;
+}
+.board {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 320px;
+  opacity: 0.6;
+}
+
+#resetButton {
+  color: whitesmoke;
+  background-color: orangered;
+}
+
+#submit {
+  color: whitesmoke;
+  background-color: orangered;
+  position: relative;
+}
